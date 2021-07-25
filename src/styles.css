@@ -39,3 +39,9 @@ h1 {
   font-size: x-large;
   font-weight: 700;
 }
+#footer{
+  padding: 10px 14px;
+    font-weight: 400;
+    font-size: small;
+      text-align: center;
+}
