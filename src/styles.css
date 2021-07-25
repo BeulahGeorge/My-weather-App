@@ -1,0 +1,41 @@
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+#citysearch {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+#citysearch:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#currentGeolocation {
+  background-color: #4caf50; /* Green */
+  border: black;
+  color: white;
+  padding: 6px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#currentGeolocation:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.card {
+  border: none;
+}
+
+#city {
+  margin: 0 auto;
+}
+#cityTemp,
+#units {
+  font-size: x-large;
+  font-weight: 700;
+}
