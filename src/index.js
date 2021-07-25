@@ -54,7 +54,7 @@ function searchcity(event) {
 }
 
 let wcitysearch = document.querySelector("#search-form");
-wcitysearch.addEventListener("submit", searchcity);
+wcitysearch.addEventListener("click", searchcity);
 
 let dateElement = document.querySelector("#daytime");
 let currentTime = new Date();
